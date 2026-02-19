@@ -93,6 +93,26 @@ ul li {
 section p {
     text-align: center;
 }
+.contact-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-links a {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 18px;
+    background-color: #1e2a38;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.contact-links a:hover {
+    background-color: #0077cc;
+}
+
 
 /* Footer */
 footer {
