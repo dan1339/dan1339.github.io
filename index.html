@@ -2,180 +2,127 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Daniel Rostin</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Rostin | Student Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio website for Daniel Rostin, UBC Pharmaceutical Sciences student.">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="hero" id="top">
-        <nav class="nav">
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-content">
             <a class="logo" href="#top">DR</a>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+        </div>
+    </nav>
 
-    <header>
-        <h1>Daniel Rostin</h1>
-        <p>PharmSci Student | Robotics | First Responder | Pharmacy Assistant</p>
-        <div class="hero-content">
-            <h1>Student Portfolio</h1>
-            <p class="hero-name">Daniel Rostin</p>
-            <p class="subtitle">Student focused on pharmaceutical research, bioengineering, robotics, and community care.</p>
+    <!-- Hero Section -->
+    <header class="hero" id="top">
+        <div class="container hero-content">
+            <h1>Daniel Rostin</h1>
+            <p class="subtitle">
+                Pharmaceutical Sciences Student | Robotics | First Responder | Pharmacy Assistant
+            </p>
             <div class="hero-actions">
                 <a class="btn btn-primary" href="#contact">Get in Touch</a>
-                <a class="btn btn-secondary" href="https://github.com/dan1339" target="_blank" rel="noopener noreferrer">View GitHub</a>
+                <a class="btn btn-secondary" href="https://github.com/dan1339" target="_blank">View GitHub</a>
             </div>
         </div>
     </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            Hi, I’m Daniel. I’m a first-year student at UBC in the Bachelor of Pharmaceutical Sciences (BPSc) program, with interests in pharmaceutical research and its intersection with bioengineering. 
-            Born and raised in Vancouver, I enjoy hiking, biking, and spending time outdoors. I also love travelling to new places and reading fantasy novels!
-        </p>
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-
-        <div class="card">
-            <h3>Python Game Development</h3>
-            <p>Developed interactive games using PyGame for programming and game development classes throughout high school.</p>
-            <a href="https://github.com/dan1339" target="_blank">View on GitHub</a>
-        </div>
     <main>
-        <section class="panel about" id="about">
-            <div class="about-text">
-                <h2>About</h2>
-                <p>
-                    I’m a first-year student at UBC in the Bachelor of Pharmaceutical Sciences (BPSc) program,
-                    with strong interests in pharmaceutical research and its intersection with bioengineering.
-                </p>
-                <p>
-                    Born and raised in Vancouver, I enjoy hiking, biking, and spending time outdoors. I’m motivated by work
-                    that combines science, teamwork, and real-world impact.
-                </p>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container about-grid">
+                <div>
+                    <h2>About</h2>
+                    <p>
+                        I’m a first-year student at UBC in the Bachelor of Pharmaceutical Sciences (BPSc) program,
+                        with strong interests in pharmaceutical research and bioengineering.
+                    </p>
+                    <p>
+                        My work spans healthcare response, robotics engineering, and community initiatives.
+                        I’m motivated by science that creates real-world impact.
+                    </p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&w=900&q=80"
+                     alt="Student studying"
+                     class="about-image">
             </div>
-            <img src="https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&w=900&q=80" alt="Student studying in a bright workspace" class="about-image">
         </section>
 
-        <div class="card">
-            <h3>Robotics Engineering Documentation</h3>
-            <p>Led engineering notebook presentations and documented iterative robot design process.</p>
-        </div>
-        <section class="panel" id="projects">
-            <h2>Featured Projects</h2>
-            <div class="card-grid">
-                <article class="card">
-                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=80" alt="Gaming keyboard and monitor setup">
-                    <div class="card-body">
+        <!-- Projects -->
+        <section class="section light-bg" id="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="card-grid">
+
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=80"
+                             alt="Game development setup">
                         <h3>Python Game Development</h3>
-                        <p>Built interactive games with PyGame through programming classes, focusing on logic, user interaction, and iterative design.</p>
-                        <a href="https://github.com/dan1339" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        <p>Built interactive games using PyGame with focus on logic, UI design, and iterative debugging.</p>
                     </div>
-                </article>
 
-                <article class="card">
-                    <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=900&q=80" alt="Robotics components and electronics on a workbench">
-                    <div class="card-body">
-                        <h3>Robotics Documentation</h3>
-                        <p>Led notebook presentations and documented robot design iterations to improve team communication and build quality.</p>
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=900&q=80"
+                             alt="Robotics components">
+                        <h3>Robotics Engineering</h3>
+                        <p>Led engineering documentation and presented iterative design processes at competitions.</p>
                     </div>
-                </article>
 
-                <article class="card">
-                    <img src="https://images.unsplash.com/photo-1576671081837-49000212a370?auto=format&fit=crop&w=900&q=80" alt="Laboratory equipment and test tubes">
-                    <div class="card-body">
-                        <h3>Pharmacy & Clinical Exposure</h3>
-                        <p>Hands-on experience supporting healthcare environments with attention to detail, communication, and patient-centered care.</p>
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1576671081837-49000212a370?auto=format&fit=crop&w=900&q=80"
+                             alt="Laboratory setting">
+                        <h3>Pharmacy & Clinical Experience</h3>
+                        <p>Supported patient-centered pharmacy operations with attention to detail and safety.</p>
                     </div>
-                </article>
+
+                </div>
             </div>
         </section>
 
-    </section>
-
-    <section>
-        <h2>Experience</h2>
-        <ul>
-            <li>Medical First Responder</li>
-            <li>Pharmacy Assistant</li>
-            <li>Access Collective and The C.O.D.E. Initiative Foundation</li>
-            <li>Robotics Team Lead Journalist</li>
-        </ul>
-    </section>
-    
-    <section>
-    <h2>Contact</h2>
-    <div class="contact-links">
-        <a href="mailto:danrost101@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/danielrostin/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/dan1339" target="_blank">GitHub</a>
-    </div>
-</section>
-        <section class="banner" aria-label="Personal banner with landscape photo">
-            <div class="banner-overlay">
-                <h2>Learning. Building. Serving.</h2>
-                <p>A student journey through science, technology, and healthcare.</p>
+        <!-- Experience -->
+        <section class="section" id="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <ul class="experience-list">
+                    <li><strong>Medical First Responder</strong> – High-pressure emergency support.</li>
+                    <li><strong>Pharmacy Assistant</strong> – Workflow efficiency and patient communication.</li>
+                    <li><strong>The C.O.D.E. Initiative</strong> – Mentorship and education outreach.</li>
+                    <li><strong>Robotics Team Lead Journalist</strong> – Technical documentation and presentations.</li>
+                </ul>
             </div>
         </section>
 
-        <section class="panel" id="experience">
-            <h2>Experience</h2>
-            <ul class="experience-list">
-                <li>
-                    <strong>Medical First Responder</strong>
-                    <span>Delivered calm, rapid support in high-pressure situations.</span>
-                </li>
-                <li>
-                    <strong>Pharmacy Assistant</strong>
-                    <span>Supported operations and helped maintain efficient patient service.</span>
-                </li>
-                <li>
-                    <strong>Access Collective & The C.O.D.E. Initiative Foundation</strong>
-                    <span>Contributed to community-centered and educational initiatives.</span>
-                </li>
-                <li>
-                    <strong>Robotics Team Lead Journalist</strong>
-                    <span>Tracked progress, communicated design decisions, and shared outcomes.</span>
-                </li>
-            </ul>
-        </section>
-
-        <section class="panel" id="gallery">
-            <h2>Photo Gallery</h2>
-            <p class="section-intro">Add your own photos later by replacing these image links with your personal pictures.</p>
-            <div class="gallery-grid">
-                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1000&q=80" alt="Mountain view during hiking trip">
-                <img src="https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?auto=format&fit=crop&w=1000&q=80" alt="Cyclist on a road trail">
-                <img src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=1000&q=80" alt="Books and laptop on a desk for studying">
-                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=80" alt="Team discussion in a workspace">
+        <!-- Contact -->
+        <section class="section light-bg" id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-links">
+                    <a href="mailto:danrost101@gmail.com">Email</a>
+                    <a href="https://www.linkedin.com/in/danielrostin/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/dan1339" target="_blank">GitHub</a>
+                </div>
             </div>
         </section>
 
-        <section class="panel" id="contact">
-            <h2>Contact</h2>
-            <div class="contact-links">
-                <a href="mailto:danrost101@gmail.com">Email</a>
-                <a href="https://www.linkedin.com/in/danielrostin/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://github.com/dan1339" target="_blank" rel="noopener noreferrer">GitHub</a>
-            </div>
-        </section>
     </main>
 
     <footer>
-        <p>© 2026 Daniel Rostin</p>
         <p>© 2026 Daniel Rostin · Built with HTML & CSS</p>
     </footer>
 
