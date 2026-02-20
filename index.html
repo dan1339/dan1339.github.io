@@ -3,20 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Daniel Rostin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Rostin | Student Portfolio</title>
+    <meta name="description" content="Portfolio website for Daniel Rostin, UBC Pharmaceutical Sciences student.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="hero" id="top">
+        <nav class="nav">
+            <a class="logo" href="#top">DR</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
 
     <header>
         <h1>Daniel Rostin</h1>
-        <p>PharmSci Student | Robotics | First Responder | Pharmacy Assistant</p>
+        <p>PharmSci Student | STEAM Instructor | First Responder | Pharmacy Assistant</p>
+        <div class="hero-content">
+            <p class="eyebrow">UBC Bachelor of Pharmaceutical Sciences</p>
+            <h1>Daniel Rostin</h1>
+            <p class="subtitle">Student focused on pharmaceutical research, bioengineering, robotics, and community care.</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="#contact">Get in Touch</a>
+                <a class="btn btn-secondary" href="https://github.com/dan1339" target="_blank" rel="noopener noreferrer">View GitHub</a>
+            </div>
+        </div>
     </header>
 
     <section>
         <h2>About Me</h2>
         <p>
             Hi, I’m Daniel. I’m a first-year student at UBC in the Bachelor of Pharmaceutical Sciences (BPSc) program, with interests in pharmaceutical research and its intersection with bioengineering. 
-            Born and raised in Vancouver, I enjoy hiking, biking, and spending time outdoors. 
+            Born and raised in Vancouver, I enjoy hiking, biking, and spending time outdoors with my friends! I also love to travel and read fantasy books.
         </p>
     </section>
 
@@ -28,11 +54,55 @@
             <p>Developed interactive games using PyGame for programming and game development classes throughout high school.</p>
             <a href="https://github.com/dan1339" target="_blank">View on GitHub</a>
         </div>
+    <main>
+        <section class="panel about" id="about">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    Hi, I’m Daniel. I’m a first-year student at UBC in the Bachelor of Pharmaceutical Sciences (BPSc) program,
+                    with strong interests in pharmaceutical research and its intersection with bioengineering.
+                </p>
+                <p>
+                    Born and raised in Vancouver, I enjoy hiking, biking, and spending time outdoors. I’m motivated by work
+                    that combines science, teamwork, and real-world impact.
+                </p>
+            </div>
+            <img src="https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&w=900&q=80" alt="Student studying in a bright workspace" class="about-image">
+        </section>
 
         <div class="card">
             <h3>Robotics Engineering Documentation</h3>
-            <p>Led engineering notebook presentations and documented iterative robot design process.</p>
+            <p>Led engineering notebook presentations and documented iterative robot design process while also working as a designer and builder from 2021-2025.</p>
         </div>
+        <section class="panel" id="projects">
+            <h2>Featured Projects</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=80" alt="Gaming keyboard and monitor setup">
+                    <div class="card-body">
+                        <h3>Python Game Development</h3>
+                        <p>Built interactive games with PyGame through programming classes, focusing on logic, user interaction, and iterative design.</p>
+                        <a href="https://github.com/dan1339" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=900&q=80" alt="Robotics components and electronics on a workbench">
+                    <div class="card-body">
+                        <h3>Robotics Documentation</h3>
+                        <p>Led notebook presentations to panels of judges at competitions and documented robot design iterations to improve team communication and build quality.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1576671081837-49000212a370?auto=format&fit=crop&w=900&q=80" alt="Laboratory equipment and test tubes">
+                    <div class="card-body">
+                        <h3>Pharmacy & Clinical Exposure</h3>
+                        <p>Hands-on experience for 500+ hours supporting healthcare environments with attention to detail, communication, and patient-centred care in both chain and local pharmacies.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
 
     </section>
 
@@ -54,9 +124,59 @@
         <a href="https://github.com/dan1339" target="_blank">GitHub</a>
     </div>
 </section>
+        <section class="banner" aria-label="Personal banner with landscape photo">
+            <div class="banner-overlay">
+                <h2>Learning. Building. Serving.</h2>
+                <p>A student journey through science, technology, and healthcare.</p>
+            </div>
+        </section>
+
+        <section class="panel" id="experience">
+            <h2>Experience</h2>
+            <ul class="experience-list">
+                <li>
+                    <strong>Medical First Responder</strong>
+                    <span>Delivered calm, rapid support in high-pressure situations in my high school and in large-scale community events in Downtown Vancouver and Richmond, working along fellow responders and paramedics.</span>
+                </li>
+                <li>
+                    <strong>Pharmacy Assistant</strong>
+                    <span>Supported operations and helped maintain efficient patient service in a fast-paced clinical environment.</span>
+                </li>
+                <li>
+                    <strong>Access Collective & The C.O.D.E. Initiative Foundation</strong>
+                    <span>Contributed to community-centred and educational initiatives by supporting growth and learning in children aged 4-12 in STEAM topics.</span>
+                </li>
+                <li>
+                    <strong>Robotics Team Lead Journalist</strong>
+                    <span>Tracked progress, communicated design decisions, and shared outcomes.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="panel" id="gallery">
+            <h2>Photo Gallery</h2>
+            <p class="section-intro">Add your own photos later by replacing these image links with your personal pictures.</p>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1000&q=80" alt="Mountain view during hiking trip">
+                <img src="https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?auto=format&fit=crop&w=1000&q=80" alt="Cyclist on a road trail">
+                <img src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=1000&q=80" alt="Books and laptop on a desk for studying">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=80" alt="Team discussion in a workspace">
+            </div>
+        </section>
+
+        <section class="panel" id="contact">
+            <h2>Contact</h2>
+            <div class="contact-links">
+                <a href="mailto:danrost101@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/danielrostin/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/dan1339" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>© 2026 Daniel Rostin</p>
+        <p>© 2026 Daniel Rostin · Built with HTML & CSS</p>
     </footer>
 
 </body>
